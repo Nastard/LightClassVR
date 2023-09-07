@@ -1,0 +1,12 @@
+{
+	"name": "LightClassVR",
+	"version": "1.0.0",
+	"description": "Multiplayer virtual reality application",
+	"scripts": {
+		"start": "node ./server/easyrtc-server.js"
+	},
+	"author": "David",
+	"dependencies": {
+		"networked-aframe": "^0.11.0"
+	}
+}
