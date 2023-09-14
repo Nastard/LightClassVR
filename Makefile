@@ -1,5 +1,4 @@
 build:
-	# make cert
 	docker build -t lightclassvr .
 
 run:
