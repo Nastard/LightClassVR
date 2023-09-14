@@ -1,10 +1,11 @@
-FROM node:18
+FROM node:20-slim
 
-WORKDIR /usr/src/LightClassVR
+WORKDIR /usr/app/LightClassVR
 
-COPY package*.json ./
-COPY node_modules ./node_modules
+COPY package.json ./
 COPY html ./html
 COPY server ./server
 
-EXPOSE 4433
+RUN npm install
+
+ENTRYPOINT ["npm", "start"]
