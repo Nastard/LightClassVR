@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AFrame Platform</title>
-	<meta name="description" content="A simple HTML5 Template for new projects.">
+	<title>LightClassVR</title>
+	<meta name="description" content="A-Frame project to make an VR Web App">
 	<meta name="author" content="David">
 	<link rel="icon" href="/favicon.ico">
 
@@ -43,7 +43,6 @@
 			<!-- Images -->
 			<img id="grid" src="textures/grid.png" crossorigin="anonymous">
 			<img src="textures/sky.jpg" id="sky" />
-			<img src="textures/meteor.jpeg" id="meteor" />
 
 			<!-- Object -->
 			<a-asset-item id="object" src="/object/model.gltf"></a-asset-item>
@@ -65,10 +64,10 @@
 		<a-sky src="#sky" rotation="0 -90 0" color="#ECECEC"></a-sky>
 		<a-entity light="color: #ffffff; intensity: 1.5" position="10 10 10"></a-entity>
 
-		<!-- OBJECT -->
+		<!-- EXAMPLE OBJECT -->
 		<a-entity position="0 1 0" scale="1 1 1" gltf-model="#object"></a-entity>
 
-		<!-- GAZE -->
+		<!-- EXAMPLE GAZE -->
 		<a-box color="#EF2D5E" position="0 1 2" handle-events></a-box>
 
 	</a-scene>
